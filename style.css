@@ -813,7 +813,10 @@ img:hover {
     margin-left: 5%;
     margin-right: 5%;
 }
-
+.newhr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .list{
     display: flex;
     justify-content: space-around;
@@ -845,6 +848,7 @@ img:hover {
     text-decoration: none;
     color: black;
 }
+
 
 @media only screen and (max-width:800px) {
     nav {
@@ -1053,3 +1057,102 @@ img:hover {
         
 
     }
+    @media only screen and (max-width:320px){
+      .main {
+        width: 150%;
+      }
+      .firstpage{
+        width: 150%;
+      }
+      .thirdpage{
+        width: 150%;
+      }
+      .secondpage{
+        width: 150%;
+      }
+      .forthpage{
+        width: 150%;
+      }
+      .fifthpage{
+        width: 150%;
+      }
+      .sixthpage{
+        width: 150%;
+      }
+      .seventhpage{
+        width: 150%;
+      }
+      #carouselExampleIndicators{ 
+      
+         margin-left: 75px;
+        
+      }
+
+     .list4{
+        display: none;
+    }
+      
+    }
+
+    @media only screen and (max-width:592px){
+        .list4{
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width:400px){
+        .forthpage{
+            height: 450px;
+            /* width: 100%; */
+            
+        }
+        .forthpageh1{
+            font-size: 40px;
+        }
+        .firstpage{
+            height: 550px;
+            padding-top: 20px;
+        }
+        .firstpagep{
+            font-size: 15px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            letter-spacing: 2px;
+            line-height: 19px;
+        }
+        .lastp{
+            letter-spacing: 1px;
+        }
+
+        .footerp{
+            margin: 0 80px;
+        }
+
+        .hrline{
+            
+            /* display: none; */
+            padding-left: 15px;
+            width: 300px;
+            
+             
+        }
+        .newhr{
+            display: none;
+        }
+        .lastp{
+            display: none;
+        }
+       }
+
+       @media only screen and (min-width:1200px){
+          .lastdiv{
+            margin-top: -15px;
+          }
+          .lastp{
+            
+            display: none;
+          }
+          .newhr{
+            display: none;
+          }
+       }
