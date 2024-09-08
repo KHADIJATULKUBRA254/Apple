@@ -1,0 +1,1055 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 54px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    
+}
+
+.hide {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+nav .nav-items {
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.right-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.bar:hover{
+    background-color: rgb(218, 214, 214);
+    
+
+
+}
+
+.firstpage{
+    height: 700px;
+    width: 100%;
+    background-image: url(img/hero_paralympics__f0u9lu6obdiu_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.firstpage{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+
+}
+.firstpageh1{
+    font-size: 50px;
+}
+.firstpagep{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.firstpagebtn{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+
+.secondpage{
+        height: 700px;
+        width: 100%;
+        background-image: url(img/hero_iphone_family_a__c7v3mvx3jv42_largetall.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+}
+
+.secondpage{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+
+}
+.secondpageh1{
+    font-size: 70px;
+}
+.secondpagep{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.secondpagebtn{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+}
+.secondpagebtn1{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    background-color: #007aff;
+}
+.secondpagebtn2{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    border-color: #007aff;
+    color: #007aff;
+    background-color: black; 
+    border: 1px solid #007aff;
+    
+
+}
+
+.secondpagebtn2:hover{
+    color: white ;
+    background-color: #007aff;
+}
+
+.thirdpage{
+    background-color: #f5f5f7;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.thirdimgdiv{
+    text-align: center;
+    width: 100%;
+    
+}
+.thirdpagebtn{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    border-color: #007aff;
+    color: #007aff;
+    background-color: #f5f5f7;
+    
+}
+
+
+.forthpage{
+    height: 700px;
+    width: 100%;
+    background-image: url(img/hero_macbook_air_m3__cp4t7pn8zqaa_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.forthpage{
+text-align: center;
+padding-top: 70px;
+color: white;
+
+}
+.forthpageh1{
+font-size: 70px;
+color: black;
+}
+.forthpagep{
+font-size: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+letter-spacing: 1px;
+line-height: 25px;
+color: black;
+}
+
+.forthpagebtn1{
+font-size: 17px;
+font-weight: 400;
+letter-spacing: -.022em;
+border-width: 1px;
+padding-left: 21px;
+padding-right: 21px;
+padding-top: 11px;
+padding-bottom: 11px;
+border-radius: 25px;
+border-style: none;
+color: white;
+background-color: #007aff;
+}
+.forthpagebtn2{
+font-size: 17px;
+font-weight: 400;
+letter-spacing: -.022em;
+border-width: 1px;
+padding-left: 21px;
+padding-right: 21px;
+padding-top: 11px;
+padding-bottom: 11px;
+border-radius: 25px;
+border-style: none;
+border-color: #007aff;
+color: #007aff;
+background-color: #f5f5f7;
+border: 1px solid #007aff;
+}
+.forthpagebtn2:hover{
+    color: white ;
+    background-color: #007aff;
+}
+
+
+
+.fifthpage{
+
+    display: flex;
+
+}
+.fifthpagepic1{
+    background-color: orange;
+    height: 550px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(img/promo_ipadpro__ch217v9v7no2_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fifthpagepic2{
+    background-color: orange;
+    height: 550px;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url(img/promo_ai__couihqxznyvm_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sixthpage{
+
+    display: flex;
+
+}
+.sixthpagepic1{
+    background-color: orange;
+    height: 550px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(img/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.sixthpagepic2{
+    background-color: orange;
+    height: 550px;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url(img/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.seventhpage{
+
+    display: flex;
+
+}
+.seventhpagepic1{
+    background-color: orange;
+    height: 550px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(img/promo_apple_card__5cm7draujpey_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.seventhpagepic2{
+    background-color: orange;
+    height: 550px;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url(img/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.fifthpagepic1{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+
+}
+.fifthpagepic1h1{
+    font-size: 40px;
+}
+.fifthpagepic1p{
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.fifthpagepic1btn1{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    background-color: #007aff;
+}
+.fifthpagepic1btn2{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    border-color: #007aff;
+    color: #007aff;
+    background-color: black;
+    border: 1px solid #007aff;
+    
+}
+.fifthpagepic1btn2:hover{
+    color: white ;
+    background-color: #007aff;
+}
+
+
+
+
+
+
+
+
+
+
+.fifthpagepic2{
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+
+}
+.fifthpagepic2h1{
+    font-size: 40px;
+
+}
+.fifthpagepic2p1{
+    font-size: 20px;
+    /* padding-top: 0px; */
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.fifthpagepic2p2{
+    font-size: 15px;
+    /* padding-top: 1px; */
+    /* padding-bottom: 1px; */
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #a3a3a8;
+}
+
+
+
+.fifthpagepic2btn1{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    background-color: #007aff;
+}
+.fifthpagepic2btn2{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    border-color: #007aff;
+    color: #007aff;
+    background-color: #f5f5f7;
+    border: 1px solid #007aff;
+}
+.fifthpagepic2btn2:hover{
+    color: white ;
+    background-color: #007aff;
+}
+
+
+
+
+
+
+
+.sixthpagepic1{
+    text-align: center;
+    color: black;
+
+}
+
+.sixthpagepic1p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.forimg1{
+    margin-top: 380px;
+}
+
+
+.sixthpagepic1btn1{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    background-color: #007aff;
+}
+.sixthpagepic1btn2{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    border-color: #007aff;
+    color: #007aff;
+    background-color: #e8e8e8;
+    border: 1px solid #007aff;
+
+
+}
+
+.sixthpagepic1btn2:hover{
+    color: white ;
+    background-color: #007aff;
+}
+
+
+
+
+
+
+
+
+.sixthpagepic2{
+    text-align: center;
+    color: white;
+
+}
+
+.sixthpagepic2p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.forimg2{
+    margin-top: 40px;
+}
+
+
+.sixthpagepic2btn1{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    background-color: #007aff;
+}
+.sixthpagepic2btn2{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    border-color: #007aff;
+    color: #007aff;
+    background-color: black;
+    border: 1px solid #007aff;
+}
+.sixthpagepic2btn2:hover{
+    color: white ;
+    background-color: #007aff;
+}
+
+
+
+
+
+
+.seventhpagepic1{
+    text-align: center;
+    color: white;
+
+}
+
+.seventhpagepic1p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: black;
+}
+
+.forimg3{
+    margin-top: 40px;
+}
+
+
+.seventhpagepic1btn1{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    background-color: #007aff;
+}
+.seventhpagepic1btn2{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    border-color: #007aff;
+    color: #007aff;
+    background-color: #f5f5f7;
+    border: 1px solid #007aff;
+}
+.seventhpagepic1btn2:hover{
+    color: white ;
+    background-color: #007aff;
+}
+
+
+
+
+
+
+
+.seventhpagepic2{
+    text-align: center;
+    color: white;
+
+}
+
+.seventhpagepic2p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: black;
+}
+
+.forimg4{
+    margin-top: 40px;
+}
+
+
+.seventhpagepic2btn1{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    background-color: #007aff;
+}
+
+
+
+
+/* imageplay */
+
+ .image-slider {
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 350px;  
+    width: 100%;
+    /* margin-top: 5px;  */
+}
+
+.image-slider-track {
+    display: flex;
+    width: calc(400px * 6); /* Adjusted width calculation */
+    animation: play 70s linear infinite;
+}
+
+.slide {
+    height: 300px;
+    width: 400px;
+    display: grid;
+    place-items: center;
+    /* padding: 0; Removed padding to eliminate the gap */
+    /* margin: 0; Removed margin to eliminate the gap */
+    perspective: 100px;
+}
+
+.iamgeplayy {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover; /* Ensures images fill the container without distortion */
+    transition: transform 1s;
+}
+
+@keyframes play {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-400px * 6)); /* Adjusted for 400px wide slides */
+    }
+}
+
+.image-slider::before,
+.image-slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: '';
+    height: 100%;
+    width: 15%;
+    z-index: 2;
+    position: absolute;
+}
+
+.image-slider::before {
+    left: 0;
+    top: 0;
+}
+
+.image-slider::after {
+    right: 0;
+    top: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+img:hover {
+    transform: translateZ(20px);
+}
+
+  
+#carouselExampleIndicators{
+    margin: auto;
+    height: 70%;
+    width: 100%;
+}
+
+
+/* 
+.footer{
+    height: 1800px;
+    width: 100%;
+    background-color: #f5f5f7;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.footerp
+{
+    width: 70%;
+    
+} */
+
+.footer {
+    height: 1650px;
+    width: 100%;
+    /* background-color: #f5f5f7; */
+    
+    margin-top: 30px;
+    text-align: left; /* Center text within the footer */
+    
+}
+
+.footerp {
+    width: 85%;
+    margin: 0 auto; /* Center the .footerp div horizontally */
+}
+
+.hrline{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.list a{
+    color: black;
+}
+.lastp{
+     text-align: center; 
+}
+
+.lastdiv{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    /* background-color: #f5f5f7; */
+    justify-content: space-around;
+    margin-bottom: 0px;
+    
+
+}
+.lastpdiv2 a{
+    text-decoration: none;
+    color: black;
+}
+.lastpdiv3 a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:800px) {
+    nav {
+        justify-content: space-around
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .right-icons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        
+
+    }
+
+}
+
+@media only screen and (max-width:1523px){
+    .fifthpage{
+         flex-direction: column;
+         
+         
+    }
+    .fifthpagepic1{
+        width: 100%;
+        height: 670px;
+    }
+    .fifthpagepic2{
+        width: 100%;
+        height: 670px;
+        
+    }
+
+    .sixthpage{
+       flex-direction: column;
+
+    }
+    .sixthpagepic1{
+        width: 100%;
+        height: 670px;
+    }
+    .sixthpagepic2{
+        width: 100%;
+        height: 670px;
+    }
+
+    .seventhpage{
+        flex-direction: column;
+
+    }
+    .seventhpagepic1{
+        width: 100%;
+        height: 670px;
+    }
+    .seventhpagepic2{
+        width: 100%;
+        height: 670px;
+    }
+
+    .footer{
+        height: 2000px;
+        margin-bottom: 0;
+    }
+    .lastdiv{
+        display: none;
+        height: 70px;
+    }
+
+    
+}
+
+@media only screen and (max-width:1615px){
+    .lastdiv{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width:801px) {
+    #new {
+        display: none;
+    }
+
+    .right-icons{
+        padding-left: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px){
+    .thirdpageimg{
+        width:100%;
+    }
+}
+
+
+@media only screen and (max-width:616px){
+    .thirdpageimg{
+        width:100%;
+    }
+}
+@media only screen and (max-width:678px){
+    .thirdpageimg{
+        width:100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .fifthpagepic1{
+        margin-left: 0px;
+    }
+    .fifthpagepic2{
+        margin-left: 0px;
+    }
+    .sixthpagepic1{
+        margin-left: 0px;
+    }
+    .sixthpagepic2{
+        margin-left: 0px;
+    }
+    .seventhpagepic1{
+        margin-left: 0px;
+    }
+    .seventhpagepic2{
+        margin-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width:1274px){
+    .fifthpagepic1{
+        margin-left: 0px;
+    }
+    .fifthpagepic2{
+        margin-left: 0px;
+    }
+    .sixthpagepic1{
+        margin-left: 0px;
+    }
+    .sixthpagepic2{
+        margin-left: 0px;
+    }
+    .seventhpagepic1{
+        margin-left: 0px;
+    }
+    .seventhpagepic2{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:1234px){
+
+    .forimg1{
+        margin-top: 490px;
+    }
+}
+
+@media only screen and (max-width:790px){
+
+    .forthpage{
+        height: 500px;
+        width: 100%;
+        }
+        .forthpage{
+            padding-top: 30px;
+            
+        }
+          
+            .forthpagep{
+           font-size: 20px;
+            padding-top: 0px; 
+            padding-bottom: 0px;
+            letter-spacing: 1px;
+            line-height: 10px;
+          
+            }
+            
+    
+    }
+
+    @media only screen and (max-width:790px){
+        .secondpage{
+            height: 500px;
+            width: 100%;   
+        } 
+        .secondpage{
+          
+            padding-top: 25px;
+            
+        
+        }
+        .secondpageh1{
+            font-size: 70px;
+        }
+        .secondpagep{
+            font-size: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            /* letter-spacing: 1px; */
+            
+        }
+        
+
+    }
